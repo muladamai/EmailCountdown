@@ -1,0 +1,6 @@
+{
+  "name": "Emailcountdown",
+  "tagline": "Countdown image for email. Add create url.",
+  "body": "EmailCountdown\r\n==============\r\n\r\n![EmailCountdown](https://raw.githubusercontent.com/muladamai/EmailCountdown/master/images/count.gif)\r\n\r\n**How?**\r\n\r\n- Upload to your site\r\n- Creates by URL yoursite http://yoursite.com/EmailCountdown/create/2016-04-04+20:00:00\r\n- copy generated URL to any medium http://yoursite.com/EmailCountdown/57026550.gif\r\n\r\n**What does this do?**\r\n\r\nCreates a countdown image counting down to a specific time/date for use in email campaigns.\r\n\r\n**How does it work?**\r\n\r\nThis generates an image based on the following variables:\r\n\r\n```php\r\n  $image = imagecreatefrompng('images/countdown.png');\r\n  $font = array(\r\n    'size'=>23, // Font size, in pts usually.\r\n    'angle'=>0, // Angle of the text\r\n    'x-offset'=>7, // The larger the number the further the distance from the left hand side, 0 to align to the left.\r\n    'y-offset'=>30, // The vertical alignment, trial and error between 20 and 60.\r\n    'file'=>'./GillSans.ttc', // Font path\r\n    'color'=>imagecolorallocate($image, 55, 160, 130), // RGB Colour of the text\r\n  );\r\n```\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
