@@ -1,7 +1,8 @@
 EmailCountdown
 ==============
 
-(https://raw.githubusercontent.com/muladamai/EmailCountdown/master/images/count.gif)
+![EmailCountdown](https://raw.githubusercontent.com/muladamai/EmailCountdown/master/images/count.gif)
+
 **How?**
 
 - Upload to your site
