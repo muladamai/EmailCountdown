@@ -1,6 +1,9 @@
 EmailCountdown
 ==============
-
+**How?**
+Upload to your site
+Creates by URL yoursite http://yoursite.com/EmailCountdown/create/2016-04-04+20:00:00
+copy generated URL to any medium http://yoursite.com/EmailCountdown/57026550.gif
 
 **What does this do?**
 
