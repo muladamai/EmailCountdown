@@ -1,5 +1,5 @@
 <?php
-	//<img src="http://indoconx.com/EmailCountdown/gif.php?time=2016-03-28+20:00:00" alt="Countdown" border="0" style="display:block;">
+	//<img src="http://yoursite.com/EmailCountdown/gif.php?time=2016-03-28+20:00:00" alt="Countdown" border="0" style="display:block;">
 
 	$script = explode('/',$_SERVER['SCRIPT_NAME']);
 	$mod = explode('/',urldecode($_SERVER['REQUEST_URI']),count($script));
